@@ -1,37 +1,19 @@
-# Speak & Shake Mobile App
+# MIT App Inventor - Small Projects
 
-> **Note:** This is a basic starter project built to demonstrate core concepts in MIT App Inventor. More complex and interesting mobile projects will be added to this repository over time!
+> **Note:** This repository holds a collection of small, simple mobile app experiments built with MIT App Inventor. I'll be adding more basic and intermediate projects here as I build them.
 
-A minimal mobile application built with **MIT App Inventor** that demonstrates basic user interface interactions, text-to-speech functionality, and device sensor integration.
+---
 
-## 📱 Features
+## Project 1: Speak & Shake
 
-- **Text-to-Speech Conversion:** Reads aloud any text typed into the input box when the "Speak Text" button is tapped.
-- **Motion Sensor Integration:** Uses the device's accelerometer to detect shaking gestures and triggers audio feedback ("Stop shaking me!").
+A simple app built to demonstrate basic UI, TTS, and accelerometer sensor integration.
 
-## 🛠️ Built With
+### Features
+- Speaks aloud whatever text you type in the box.
+- Speaks a set message ("Stop shaking me!") when the phone is shaken.
 
-- **[MIT App Inventor](https://ai2.appinventor.mit.edu/)** - Block-based visual programming environment.
-- **Components Used:**
-  - `TextBox` & `Button` (User Interface)
-  - `TextToSpeech` (Media)
-  - `AccelerometerSensor` (Sensors)
-
-## 🧩 Block Architecture
-
-Below is the complete logic setup used in MIT App Inventor:
-
+### Blocks
 ![Block Logic](./blocks-screenshot.png)
 
-## 🚀 How to Run / Test
-
-1. Install the **MIT AI2 Companion** app on your Android or iOS device.
-2. Open the project in [MIT App Inventor](https://ai2.appinventor.mit.edu/).
-3. In the top menu, select **Connect > AI Companion**.
-4. Scan the generated QR code using your phone to run the live preview.
-
-## 📁 Repository Structure
-
-- `SpeakAndShake.aia` - The source project file (can be imported back into MIT App Inventor).
-- `blocks-screenshot.png` - Visual representation of the app's block code.
-- `README.md` - Documentation for this project.
+### Files
+- `SpeakAndShake.aia` - Project source file (importable to MIT App Inventor).
